@@ -4,16 +4,20 @@ class NumbersNotDivisibleBy3And7
 {
     static void Main()
     {
-        Console.WriteLine("Enter an integer:");
-        int n = int.Parse(Console.ReadLine());
+       printf("Enter an integer:");
+        int n ;
+        scanf(%d ,&n);
         for (int i = 1; i <=n; i++)
         {
             if (i%3!=0&&i%7!=0)
             {
-                Console.Write("{0} ",i);
+                printf(" the number %d is divisible ",n);
+            }
+            else{
+            printf("not divisible");
             }
         }
-        Console.WriteLine();
+      
     }
 }
 
